@@ -23,7 +23,11 @@ class Animal {
             }
         }
 
-        class Cat extends Animal {
+       class Cat extends Animal {
+            purr() {
+                console.log("purr");
+            }
+        }
 
 // Do not change the code below this line
 window.Animal = Animal;
